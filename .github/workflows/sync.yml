@@ -1,7 +1,6 @@
 name: Sync Fork deepseek-harness
 permissions:
   contents: write
-  workflows: write
 on:
   schedule:
     - cron: '0 8 * * *'   # UTC 08点 = 北京时间16点，每天同步一次
